@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+ position: relative;
+    background-image: url(images/bg.jpg) ;
+    background-attachment: fixed;
+    background-position:cover ;
+    width: 40%;
+    float: left;
+    height: 25em;
+   padding: 20px;
+   display: wrap;
+align-items: center;
+text-align: center;
+position: fixed;
+opacity: 1;
+
+}
+.image-avater{
+    max-width: 100%;
+    height: 10em;
+    justify-content: center;
+   border-radius: 50%;
+   background-color: rgb(168, 149, 125);
+}
+.someText{
+    font-size: larger;
+    color: aliceblue;
+}
+.mg{
+    font-size: 33px;
+    color: aqua;
+}
+@media screen and (max-width:10224px) {
+    .content{
+        display:inline-block;
+      width: 45%;
+      height: 50em;
+      position: fixed;
+    }
+    .content1 .imgs{
+        padding-left: 30px;
+        max-width: 600px;
+        display:flex;
+        aspect-ratio: 3/2.5;
+
+   }
+   .content1{
+    padding-left: 50px;
+   }
+    
+}
+
+@media screen and (max-width:600px) {
+    .content{
+        display:block;
+ position:relative;
+ height: 40%;
+text-align: center;
+width: 100%;
+padding-left: 20px ;
+ top: 0;
+ right: 0;
+ float: right;
+
+    }
+    
+}
+
+.content1{
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    float: right;
+    padding-left: 10px;
+}
+
+@media screen and (max-width:700px) {
+    .content1{
+        float: none;
+        width: 100%;
+        background-color: rgb(248, 248, 248);
+        padding-left: 0;
+    }
+    .content1 .imgs{
+         padding-left: 30px;
+         max-width: 300px;
+         display:flex;
+         aspect-ratio: 3/2.5;
+
+    }
+}
+.content1 p{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 23px;
+    text-shadow: 2px 1px 3px ;
+  
+}
+.content1 span{
+    font-size: 20px;
+    text-shadow: 2px 1px 3px ;
+}
+
+footer{
+    background-color: dimgray;
+}
+.imgs:hover{
+    content: "view";
+    opacity: 1;
+   
+}
+footer{
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    padding-top: 13px;
+}
+form{
+    padding: 20px;
+    font-weight: 40px;
+    color: rgb(5, 5, 5);
+    background-color: darkgray;
+    justify-content: space-between;
+    
+}
+form>input{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.3s ease;
+}
+form>input:hover{
+    transition: 0.3s ease-out;
+}
+.sub{
+    width: 300px;
+    color: #fafafa;
+    padding: 5px;
+    background-color: rgb(26, 31, 21);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #0ef;
+}
+textarea{
+    width: 300px;
+    height: 70px;
+   
+}
+.quofi{
+    background-color: rgb(134, 158, 160);
+    height: 70%;
+    padding: 10px;
+    padding-top: 10px;
+    margin-right: 10px;
+   
+}
+.team{
+    background-color: rgb(134, 158, 160);
+    height: 70%;
+    padding-top: 10px;
+    margin-right: 10px;
+ padding: 10px;
+ font-size: 20px;
+  
+}
+.amount{
+     background-color: rgb(134, 158, 160);
+    height: 50px;
+    padding-top: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
